@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--Page 1 Header-->
+<header class="top-header"></header>
+<nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">CGM48 Blog</a></div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="createblog.html">Create Blog</a></li>
+        <li><a href="https://lalitawhxn.github.io/">Profile</a></li>
+        <li><a href="#">Signup</a></li>
+        <li><a href="#">Login</a></li>
+  </nav>
+<body>
+  
+ <!--Page 1 Header-->
+ <header class="top-header"></header>
+ <nav>
+     <div class="navbar">
+       <div class="logo"><a href="#">CGM48 Blog</a></div>
+       <ul class="menu">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="createblog.html">Create Blog</a></li>
+         <li><a href="profile.html">Profile</a></li>
+         <li><a href="#">Signup</a></li>
+         <li><a href="#">Login</a></li>
+   </nav>
+
+   <section>
+    <div class="blog-form">
+        <h2>Write a Blog Post</h2>
+        <form>
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="technology">Technology</option>
+                    <option value="travel">Travel</option>
+                    <option value="food">Food</option>
+                    <option value="lifestyle">Lifestyle</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="6" required></textarea>
+            </div>
+            <button type="submit">Publish</button>
+        </form>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+
+</html>
